@@ -39,7 +39,7 @@ let gameResult = JSON.parse(localStorage.getItem('gameResult')) || {
         }else if(computerMove === 'paper'){
           result = 'You lose.';
         }else if(computerMove === 'scissors'){
-          result = 'You  win.';
+          result = 'You win.';
         }
       }
       if(result === 'You win.'){
